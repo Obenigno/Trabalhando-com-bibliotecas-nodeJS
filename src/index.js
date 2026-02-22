@@ -7,7 +7,7 @@ export function contaPalavras(texto){
         return[];
         return verificaPalavrasDigitadas(paragrafo);
     })
-    console.log(contagem);
+    return contagem;
 }
 
 function extraiParagrafos(texto){
